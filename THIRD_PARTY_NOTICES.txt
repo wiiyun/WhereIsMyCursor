@@ -1,0 +1,10 @@
+Project-owned files use the MIT License in LICENSE. Third-party components
+retain their own licenses; MIT does not replace the terms in licenses/.
+
+Static runtime components included by the Zig/MinGW C/C++ toolchain:
+- LLVM libc++, libc++abi, libunwind: Apache License 2.0 with LLVM exceptions.
+- MinGW-w64 CRT support: applicable notices are reproduced in licenses/mingw-w64.txt.
+
+The application and its recovery guard are native Win32 binaries. No Zig compiler,
+.NET runtime, Python runtime or Windows system DLL is redistributed in this package.
+See the accompanying licenses directory for full texts and component notices.

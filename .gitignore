@@ -1,0 +1,41 @@
+# Local binaries, archives and build output
+/native/build/
+/dist/
+/artifacts/
+/legacy-build/
+/bin/
+/obj/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.res
+*.zip
+.zig-cache/
+zig-out/
+
+# Machine-specific diagnostics and test output
+/native/*-inspection.json
+/native/*-memory-*.json
+/native/*-benchmark-*.csv
+native-test-result.txt
+native-test-settings.json
+*.ui-test.json
+native-settings-preview*.bmp
+render-benchmark.csv
+
+# Editor, OS and local-only configuration
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+.env
+.env.*
+!.env.example
