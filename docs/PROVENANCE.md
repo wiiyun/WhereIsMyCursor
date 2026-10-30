@@ -24,3 +24,9 @@
 使用 Zig 0.14.1 自带的 C/C++ 工具链构建。编译器本身不随应用发布。静态运行时组件及相关声明见 `THIRD_PARTY_NOTICES.txt` 和 `licenses/`。Windows 系统 DLL 不随应用发布。
 
 The root MIT license covers project-owned files only. Third-party runtime components retain their original notices and terms. Reference links acknowledge feature inspiration and discussion; they do not grant rights to upstream code or imply endorsement.
+
+## Demo media
+
+`Assets/demo.gif` shows the native arrow and a user-supplied custom cursor.
+The custom cursor artwork is used for compatibility demonstration only and is
+not covered by this project's MIT license. The original cursor file is not included.

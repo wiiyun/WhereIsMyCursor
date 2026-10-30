@@ -46,7 +46,7 @@ foreach($folder in @('native','Assets','tools','licenses','docs')){
     foreach($file in Get-ChildItem -LiteralPath (Join-Path $projectRoot $folder) -File){
         $include=switch($folder){
             'native' {$file.Extension -in @('.cpp','.c','.h','.ps1','.rc','.manifest','.md')}
-            'Assets' {$file.Extension -in @('.png','.ico')}
+            'Assets' {$file.Extension -in @('.png','.ico','.gif')}
             'tools' {$file.Extension -in @('.ps1','.py')}
             'licenses' {$file.Extension -eq '.txt'}
             'docs' {$file.Extension -eq '.md'}

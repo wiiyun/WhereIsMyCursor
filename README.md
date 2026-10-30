@@ -4,6 +4,8 @@
 
 晃动鼠标，快速找到指针。停止晃动后，指针短暂停留并平滑缩回。
 
+![指针放大演示](Assets/demo.gif)
+
 [演示视频](https://github.com/wiiyun/WhereIsMyCursor/releases/download/v0.1.0/WhereIsMyCursor-v0.1.0-demo-compact.mp4)
 
 ## 功能
