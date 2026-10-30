@@ -6,8 +6,6 @@ Shake your mouse to find your cursor. It enlarges while shaking, holds briefly, 
 
 ![Cursor enlargement demo](Assets/demo.gif)
 
-[Demo video](https://github.com/wiiyun/WhereIsMyCursor/releases/download/v0.1.0/WhereIsMyCursor-v0.1.0-demo-compact.mp4)
-
 ## Features
 
 - Adjustable cursor scale, shake sensitivity and hold duration.

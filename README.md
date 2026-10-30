@@ -6,8 +6,6 @@
 
 ![指针放大演示](Assets/demo.gif)
 
-[演示视频](https://github.com/wiiyun/WhereIsMyCursor/releases/download/v0.1.0/WhereIsMyCursor-v0.1.0-demo-compact.mp4)
-
 ## 功能
 
 - 晃动放大鼠标指针，可调整倍数、灵敏度和停留时间。
